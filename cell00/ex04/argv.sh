@@ -1,5 +1,5 @@
 if [ $# -eq 0 ]; then
-  echo ""
+  echo "No arguments supplied"
 else
 
   [ $# -ge 1 ] && echo "$1"
