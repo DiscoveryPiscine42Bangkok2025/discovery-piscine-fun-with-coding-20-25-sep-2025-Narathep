@@ -1,0 +1,17 @@
+.table {
+    width: 100%; 
+    border-collapse: 
+    collapse; height: 100px;
+}
+
+.td1 {
+    width: 50%; 
+    padding: 15px; 
+    background-color: greenyellow;
+}
+
+.td2 {
+    width: 50%; 
+    padding: 15px; 
+    background-color: rgb(250, 99, 99);
+}
