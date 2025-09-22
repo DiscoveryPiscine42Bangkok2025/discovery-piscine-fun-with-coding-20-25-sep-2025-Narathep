@@ -1,0 +1,13 @@
+
+.colorButton {
+    background: linear-gradient(45deg, #4216e2, #6591f0);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 35px;
+    border-radius: 25px;
+}
+.Button {
+    display: flex; 
+    justify-content: center; 
+}
