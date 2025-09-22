@@ -1,17 +1,27 @@
-.table {
-    width: 100%; 
-    border-collapse: 
-    collapse; height: 100px;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-.td1 {
-    width: 50%; 
-    padding: 15px; 
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+
+.first-cell {
+    width: 50%;
+    padding: 15px;
     background-color: greenyellow;
 }
 
-.td2 {
-    width: 50%; 
-    padding: 15px; 
+
+.second-cell {
+    width: 50%;
+    padding: 15px;
     background-color: rgb(250, 99, 99);
 }
