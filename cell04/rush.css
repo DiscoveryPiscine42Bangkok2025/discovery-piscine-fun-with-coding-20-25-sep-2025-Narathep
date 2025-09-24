@@ -4,8 +4,8 @@
 }
 
 html {
-    scroll-behavior: smooth; /* ทำให้การเลื่อนหน้าจอสมูทขึ้น */
-    scroll-padding-top: 70px; /* เพิ่มระยะห่างด้านบนเวลาคลิกลิงก์ เพื่อไม่ให้เนื้อหาถูกเมนูบัง */
+    scroll-behavior: smooth; 
+    scroll-padding-top: 70px;
 }
 
 body {
@@ -26,10 +26,10 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-    position: sticky;      /* สำหรับ Browser ทั่วไป */
-    top: 0;                /* กำหนดให้ติดที่ด้านบนสุดของจอ */
-    width: auto;           /* ทำให้เมนูเต็มความกว้าง */
-    background-color: #000000; /* ใส่สีพื้นหลังทึบ เพื่อไม่ให้เนื้อหาข้างล่างลอดขึ้นมา */
+    position: sticky;      
+    top: 0;                
+    width: auto;      
+    background-color: #000000; 
     z-index: 1000;
 }
 
@@ -186,7 +186,7 @@ nav img {
   cursor: pointer;
 }
 
-        /* --- สไตล์สำหรับกล่องข้อความใน Overlay --- */
+/* --- Overlay --- */
 .overlay-content {
     background-color: rgb(0, 0, 0,0.5);
     padding: 70px;
@@ -202,7 +202,7 @@ nav img {
   -ms-transform: translate(-50%,-50%);
 }
         
-        /* --- สไตล์สำหรับปุ่ม --- */
+/* --- Info Button --- */
 .info-button {
     background: transparent;
     margin-right: 15px;
